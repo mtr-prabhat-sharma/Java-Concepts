@@ -1,5 +1,5 @@
 //Method with same name but different arguments
-class DifferentMehtods {
+class DifferentMethods {
     public void myMethod(int num1) {
         System.out.println("Method with 1 parameter " + num1);
     }
@@ -9,7 +9,7 @@ class DifferentMehtods {
 }
 public class MethodOverloading {
     public static void main(String[] args) {
-        DifferentMehtods diff = new DifferentMehtods();
+        DifferentMethods diff = new DifferentMethods();
         diff.myMethod(12);
         diff.myMethod(12, 14);
     }
